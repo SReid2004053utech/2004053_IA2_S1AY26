@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SneakersRus - Home</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h1>SneakersRus</h1>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="cart.html">Cart</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="register.html">Register</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  <h2>Step Into Style 👟</h2>
+  <p>Shop the latest sneakers at SneakersRus</p>
+</header>
+
+<!-- PRODUCTS -->
+<section class="products">
+
+  <div class="product">
+    <img src="../Assets/shoe1.jpg" alt="Sneaker">
+    <h3>Air Runner</h3>
+    <p>$120</p>
+    <button onclick="addToCart('Air Runner',120)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <img src="../Assets/shoe2.jpg" alt="Sneaker">
+    <h3>Street Flex</h3>
+    <p>$90</p>
+    <button onclick="addToCart('Street Flex',90)">Add to Cart</button>
+  </div>
+
+</section>
+
+<script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SneakersRus - Checkout</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<h2>Checkout</h2>
+
+<form onsubmit="return checkout()">
+  <input type="text" id="cname" placeholder="Full Name"><br>
+  <input type="text" id="address" placeholder="Address"><br>
+  <input type="number" id="amount" placeholder="Amount"><br>
+
+  <button type="submit">Confirm</button>
+  <button type="button" onclick="clearCart()">Clear All</button>
+</form>
+
+<p id="msg"></p>
+
+<script src="../script.js"></script>
+</body>
+</html>
